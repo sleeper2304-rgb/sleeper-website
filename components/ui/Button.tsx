@@ -12,10 +12,10 @@ export function Button({ href, children, variant = "primary" }: ButtonProps) {
     <Link
       href={href}
       className={cn(
-        "inline-flex items-center justify-center border px-6 py-3 text-xs font-medium uppercase tracking-[0.18em] transition",
+        "inline-flex items-center justify-center border px-5 py-2.5 text-[11px] uppercase tracking-[0.16em] transition duration-300",
         variant === "primary"
-          ? "border-ink bg-ink text-bg hover:bg-transparent hover:text-ink"
-          : "border-ink/20 text-ink hover:border-ink"
+          ? "border-ink/20 bg-transparent text-ink hover:border-ink hover:bg-ink hover:text-bg"
+          : "border-transparent text-muted hover:text-ink"
       )}
     >
       {children}

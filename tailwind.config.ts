@@ -9,17 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#F6F4F1",
-        ink: "#111111",
-        accent: "#B39A7A",
-        muted: "#7A746B"
+        bg: "#f5f2ed",
+        ink: "#131313",
+        accent: "#9f8469",
+        muted: "#7b7268"
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
-        serif: ["var(--font-playfair)", "Georgia", "serif"]
-      },
-      letterSpacing: {
-        wide2: "0.2em"
+        serif: ["var(--font-cormorant)", "Georgia", "serif"]
       }
     }
   },

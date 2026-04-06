@@ -6,10 +6,10 @@ import { projects } from "@/lib/data";
 
 export function HomeFeaturedProjects() {
   return (
-    <Section>
+    <Section className="pt-10 md:pt-16">
       <Container>
-        <div className="mb-10 flex items-end justify-between gap-6">
-          <h2 className="font-serif text-4xl md:text-5xl">Dự án tiêu biểu</h2>
+        <div className="mb-14 flex flex-wrap items-end justify-between gap-6 border-t border-ink/10 pt-8">
+          <h2 className="font-serif text-5xl leading-none md:text-7xl">Selected Projects</h2>
           <Button href="/projects" variant="ghost">
             Xem tất cả
           </Button>
