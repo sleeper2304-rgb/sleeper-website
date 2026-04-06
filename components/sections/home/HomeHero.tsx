@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/layout/Container";
 import { Section } from "@/components/layout/Section";
 import { Reveal } from "@/components/ui/Reveal";
+import { HeroImageSequence } from "./HeroImageSequence";
 
 export function HomeHero() {
   return (
@@ -33,6 +34,10 @@ export function HomeHero() {
               {vi.homeHero.secondaryCta}
             </Button>
           </div>
+        </Reveal>
+
+        <Reveal delay={0.2}>
+          <HeroImageSequence />
         </Reveal>
       </Container>
     </Section>
