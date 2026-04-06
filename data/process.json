@@ -1,0 +1,32 @@
+[
+  {
+    "step": "01",
+    "title": "Khảo sát & định nghĩa mục tiêu",
+    "description": "Thu thập dữ liệu hiện trạng, nhu cầu vận hành và ngân sách để xác lập đề bài chính xác ngay từ đầu."
+  },
+  {
+    "step": "02",
+    "title": "Ý tưởng không gian",
+    "description": "Phát triển concept, mood, định hướng vật liệu và trải nghiệm người dùng cho toàn bộ công trình."
+  },
+  {
+    "step": "03",
+    "title": "Thiết kế phát triển",
+    "description": "Hoàn thiện hồ sơ kỹ thuật kiến trúc, nội thất và phối hợp hệ thống kỹ thuật đồng bộ."
+  },
+  {
+    "step": "04",
+    "title": "Dự toán & kế hoạch thi công",
+    "description": "Lập ngân sách chi tiết, timeline theo giai đoạn và kiểm soát rủi ro trước khi triển khai."
+  },
+  {
+    "step": "05",
+    "title": "Thi công & giám sát",
+    "description": "Tổ chức thi công chuẩn chất lượng, giám sát liên tục để đảm bảo đúng thiết kế và tiến độ."
+  },
+  {
+    "step": "06",
+    "title": "Bàn giao & hậu kiểm",
+    "description": "Nghiệm thu toàn diện, bàn giao hồ sơ vận hành và đồng hành bảo trì sau hoàn công."
+  }
+]
