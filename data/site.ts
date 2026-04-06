@@ -4,8 +4,8 @@ export const siteConfig = {
     "Studio thiết kế kiến trúc, nội thất và xây dựng với ngôn ngữ hiện đại, sang trọng, tinh tế.",
   url: "https://sleeper.vn",
   email: "hello@sleeper.vn",
-  phone: "+84 28 1234 5678",
-  address: "Quận 1, TP. Hồ Chí Minh, Việt Nam",
+  phone: "+84 974898790",
+  address: "Đà Nẵng, Việt Nam",
   nav: [
     { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" },
