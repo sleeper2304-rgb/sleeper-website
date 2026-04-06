@@ -6,14 +6,17 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function HomeHero() {
   return (
-    <Section className="pb-16 pt-24 md:pb-24 md:pt-32">
+    <Section className="pb-20 pt-24 md:pb-32 md:pt-36">
       <Container>
         <Reveal>
-          <p className="text-[11px] uppercase tracking-[0.22em] text-muted">{vi.homeHero.eyebrow}</p>
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="text-[11px] uppercase tracking-[0.22em] text-muted">{vi.homeHero.eyebrow}</p>
+            <p className="text-[10px] uppercase tracking-[0.2em] text-muted">[ Scroll down ]</p>
+          </div>
         </Reveal>
 
         <Reveal delay={0.06}>
-          <h1 className="mt-5 max-w-[13ch] font-serif text-[3.35rem] leading-[0.9] md:text-[6.6rem]">
+          <h1 className="mt-7 max-w-[13ch] font-serif text-[3.5rem] leading-[0.88] md:text-[7rem]">
             Kiến tạo không gian
             <br />
             sống và làm việc
@@ -23,7 +26,7 @@ export function HomeHero() {
         </Reveal>
 
         <Reveal delay={0.12}>
-          <p className="mt-9 max-w-[43ch] text-[0.92rem] leading-relaxed text-muted">{vi.homeHero.description}</p>
+          <p className="mt-10 max-w-[42ch] text-[0.9rem] leading-relaxed text-muted">{vi.homeHero.description}</p>
           <div className="mt-8 flex flex-wrap items-center gap-1">
             <Button href="/projects">{vi.homeHero.primaryCta}</Button>
             <Button href="/contact" variant="ghost">

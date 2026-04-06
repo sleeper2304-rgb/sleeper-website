@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
-    <Link href={`/projects/${project.slug}`} className="group block">
+    <Link href={`/projects/${project.slug}`} className="group block transition-transform duration-500 hover:-translate-y-1">
       <div className="relative aspect-[16/11] overflow-hidden bg-ink/5">
         <Image
           src={project.cover}
