@@ -17,6 +17,7 @@ __home_sample.html
 chunks/
 video-frames/
 .server.pid
+out/
 __chrome_tmp*/
 Thumbs.db
 .DS_Store
