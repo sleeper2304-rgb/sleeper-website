@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dự án - Sleeper</title>
+    <meta name="description" content="Danh sách dự án tiêu biểu của Sleeper trong các nhóm nhà ở, hospitality, retail và commercial.">
+    <link rel="preload" href="../assets/fonts/Europa-Grotesk-No2-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body data-page="works" data-depth="1">
+    <div class="page-transition" aria-hidden="true"></div>
+    <div class="site-loader" aria-hidden="true">
+      <div class="site-loader__brand site-loader__brand--small" aria-label="SLEEPER">
+        <span class="wordmark-shell" aria-hidden="true">
+          <span class="wordmark-text wordmark-text--chars">
+            <span class="wordmark-char">S</span><span class="wordmark-char">L</span><span class="wordmark-char">E</span><span class="wordmark-char">E</span><span class="wordmark-char">P</span><span class="wordmark-char">E</span><span class="wordmark-char">R</span>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    <div data-header></div>
+
+    <main class="works-page">
+      <section class="page-intro reveal">
+        <div class="grid-w">
+          <div class="page-intro__row page-intro__row--works">
+            <h1 class="display display--xl">
+              <span data-works-title data-animate="title">Dự án</span>
+              <sup data-works-count>(17)</sup>
+            </h1>
+            <button class="filters-toggle" type="button" data-filters-toggle>Bộ lọc</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="works-shell reveal">
+        <div class="grid-w works-shell__layout">
+          <aside class="works-sidebar" data-filters-panel>
+            <div class="works-sidebar__head">
+              <span class="subtle">Bộ lọc</span>
+              <button class="icon-button works-sidebar__close" type="button" data-filters-close aria-label="Đóng bộ lọc">+</button>
+            </div>
+            <div class="filters-list" data-filters-list></div>
+          </aside>
+
+          <div class="works-main">
+            <div class="works-toolbar">
+              <div class="view-toggle" data-view-toggle>
+                <button class="view-toggle__button is-active" data-view="grid" type="button">Dạng lưới</button>
+                <button class="view-toggle__button" data-view="list" type="button">Dạng danh sách</button>
+              </div>
+              <div class="works-active-filter subtle" data-active-filter>Tất cả dự án</div>
+            </div>
+
+            <div class="works-grid" data-works-grid></div>
+
+            <div class="works-list-shell" data-works-list-shell hidden>
+              <div class="works-list-preview" data-works-preview>
+                <img src="" alt="" data-works-preview-image>
+              </div>
+              <div class="works-list" data-works-list></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-footer></div>
+
+    <script type="module" src="../assets/js/site.js"></script>
+  </body>
+</html>
